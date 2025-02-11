@@ -1,0 +1,37 @@
+image: "assets/me.jpg"
+name: "Keza Yassin"
+bio: "Am Yassin, a guy who just likes understanding how things work from a first stance."
+
+personal_philosophy:
+  - "Experimentation is key to understanding"
+  - "Simplicity and efficiency should be at the core of building"
+  - "Open-endedness exploration ✅ , Objective-driven exploration ❌"
+ 
+hobbies:
+  tech_related:
+    - "I am deeply interested deep-learning 😲😲"
+    - "I interested in understanding scalable infrastructure"
+    - "I can't get the data inefficiency in LLMs 🤯🤯🤯"
+    - "I am interested into social networks too, chiefly in the age of AI"
+  
+  creative_pursuits:
+    - "A little bit maybe of a writer, still not yet figured it out"
+    - "Public Speaking 🥶🥶"
+    
+  offline_interests:
+    - "Amatuer mathematics contribution, did olympiad math back in high school but hit the national level two times, ma bad 😔😔"
+    - "Watching Anime, still requires to be online sometimes ma bad."
+    - "Reading books, three types mainly, fictional, computing and evolution"
+  
+
+current_explorations:
+  - "Experimenting with building the right communication interface between we and AI"
+  - "Exploring the union of intelligence, objective and evelotion ie
+      ∣I∪O∪E∣=∣I∣+∣O∣+∣E∣−∣I∩O∣−∣O∩E∣−∣E∩I∣+∣I∩O∩E∣"
+  - "Trying not to die before the Doomsday 😂😂😂"
+
+reading_interests:
+  - "Principles of compute"
+  - "Fictional science"
+  - "Philosophy of Evolution"
+ 

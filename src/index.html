@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keza</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+</head>
+<body>
+    <nav>
+        <button id="tab-me" class="tab active">Me</button>
+        <button id="tab-blog" class="tab">Blog</button>
+    </nav>
+    
+    <section id="me-section" class="content active">
+        <div id="me-container"></div>
+    </section>
+    
+    <section id="blog-section" class="content">
+        <div id="blog-container"></div>
+    </section>
+    
+    <script src="assets/tab.js"></script>
+    <script src="assets/load.js"></script>
+    <script src="assets/blog.js"></script>
+</body>
+</html>
