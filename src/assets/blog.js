@@ -11,7 +11,7 @@ async function loadBlogContent() {
 
 async function loadBlogBySlug(slug) {
     try {
-        const response = await fetch(`blog/${slug}.yaml`);
+        const response = await fetch(`src/blog/${slug}.yaml`);
         const text = await response.text();
         const yamlData = jsyaml.load(text);
         
@@ -71,22 +71,12 @@ function titleToSlug(title) {
         .join('-'); // Join with hyphens
 }
 
-async function loadLatestBlog() {
-    try {
-        const response = await fetch("blog/latest.yaml");
-        const text = await response.text();
-        const yamlData = jsyaml.load(text);
-        renderBlog(yamlData);
-    } catch (error) {
-        console.error("Error loading latest blog:", error);
-    }
-}
 
 
 
 async function loadLatestBlog() {
     try {
-        const response = await fetch("blog/latest.yaml");
+        const response = await fetch("src/blog/latest.yaml");
         const text = await response.text();
         const yamlData = jsyaml.load(text);
         renderBlog(yamlData);
@@ -99,7 +89,7 @@ async function loadLatestBlog() {
 
 async function loadHeadlines(currentBlogTitle) {
     try {
-        const response = await fetch("blog/headlines.yaml");
+        const response = await fetch("src/blog/headlines.yaml");
         const text = await response.text();
         const headlines = jsyaml.load(text);
         

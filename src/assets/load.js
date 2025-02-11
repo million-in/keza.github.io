@@ -1,6 +1,6 @@
 async function loadMe() {
     try {
-        const response = await fetch("me.yaml");
+        const response = await fetch("/src/me.yaml");
         const text = await response.text();
         const yamlData = jsyaml.load(text);
         
